@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        
+        <div id="flex">
+            
+            <div>
+                <h1 class="title"> HOME </h1>
+                <h1 class="counter" id="H"> 0 </h1>
+                <div class="btn-div">
+                    <button class="btn" onclick="up1H()">+1 </button>
+                    <button class="btn" onclick="up2H()">+2 </button>
+                    <button class="btn" onclick="up3H()">+3 </button>
+                </div>
+            </div>
+            
+            
+            <div>
+                <h1 class="title"> GUEST </h1>
+                <h1 class="counter" id="G"> 0 </h1>
+                <div class="btn-div">
+                    <button class="btn" onclick="up1G()">+1 </button>
+                    <button class="btn" onclick="up2G()">+2 </button>
+                    <button class="btn" onclick="up3G()">+3 </button>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="extra-counters">
+                <button class="btn" onclick="reset()"> NEW GAME </button>
+             
+         </div>
+        <script src="/index.js"></script>
+    </body>
+</html>
